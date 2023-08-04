@@ -22,12 +22,6 @@ class Solution {
     }
     
     public int solution(int k, int[][] dungeons) {
-        // Arrays.sort(dungeons, new Comparator<int[]>(){
-        //     @Override
-        //     public int compare(int[] arr1, int[] arr2) {
-        //         return arr1[0] - arr2[0];
-        //     }
-        // });
         
         List<Integer> left = new ArrayList<>();
         for (int i=0; i<dungeons.length; ++i) {
