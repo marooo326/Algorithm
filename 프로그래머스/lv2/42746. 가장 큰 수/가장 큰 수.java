@@ -11,11 +11,10 @@ class Solution {
                 String s2 = Integer.toString(o2);
                 if (Long.parseLong(s1+s2) > Long.parseLong(s2+s1)){
                     return -1;
-                } else if (Long.parseLong(s1+s2) < Long.parseLong(s2+s1)){
+                } else if(Long.parseLong(s1+s2) < Long.parseLong(s2+s1)){
                     return 1;
-                } else {
-                    return 0;
                 }
+                return 0;
             }
         });
         
